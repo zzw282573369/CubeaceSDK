@@ -96,6 +96,9 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = "Classes/**/*.h"
 
+  #你的SDK路径（因为传的是静态库，这个必须要）
+  spec.vendored_frameworks = "CubeaceSDK/*.framework", "CubeaceSDK/**/*.framework" 
+
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
