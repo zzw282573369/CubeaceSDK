@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CubeaceSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "CubeaceSDK."
 
   # This description is used to generate tags and improve search results.
@@ -109,7 +109,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "CubeaceSDK/*.{bundle,plist}", "CubeaceSDK/**/*.{bundle,plist}"
+  spec.resources = "CubeaceSDK/*.{bundle,plist}", "CubeaceSDK/**/*.{bundle}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
